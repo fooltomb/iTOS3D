@@ -1,0 +1,16 @@
+E:\VSproject\wpf\iTOS3D\iTOS3D\bin\Debug\iTOS3D.exe.config
+E:\VSproject\wpf\iTOS3D\iTOS3D\bin\Debug\iTOS3D.exe
+E:\VSproject\wpf\iTOS3D\iTOS3D\bin\Debug\iTOS3D.pdb
+E:\VSproject\wpf\iTOS3D\iTOS3D\obj\Debug\iTOS3D.csprojResolveAssemblyReference.cache
+E:\VSproject\wpf\iTOS3D\iTOS3D\obj\Debug\App.g.cs
+E:\VSproject\wpf\iTOS3D\iTOS3D\obj\Debug\iTOS3D_MarkupCompile.cache
+E:\VSproject\wpf\iTOS3D\iTOS3D\obj\Debug\iTOS3D_MarkupCompile.lref
+E:\VSproject\wpf\iTOS3D\iTOS3D\obj\Debug\iTOS3D.g.resources
+E:\VSproject\wpf\iTOS3D\iTOS3D\obj\Debug\iTOS3D.Properties.Resources.resources
+E:\VSproject\wpf\iTOS3D\iTOS3D\obj\Debug\iTOS3D.csproj.GenerateResource.Cache
+E:\VSproject\wpf\iTOS3D\iTOS3D\obj\Debug\iTOS3D.exe
+E:\VSproject\wpf\iTOS3D\iTOS3D\obj\Debug\iTOS3D.pdb
+E:\VSproject\wpf\iTOS3D\iTOS3D\obj\Debug\MainWindow.g.cs
+E:\VSproject\wpf\iTOS3D\iTOS3D\obj\Debug\MainWindow.baml
+E:\VSproject\wpf\iTOS3D\iTOS3D\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\VSproject\wpf\iTOS3D\iTOS3D\obj\Debug\iTOS3D.UnityControl.resources
