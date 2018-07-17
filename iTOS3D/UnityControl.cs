@@ -37,7 +37,8 @@ namespace iTOS3D
             try
             {
                 process = new Process();
-                process.StartInfo.FileName = Application.StartupPath + @"\build\itos.exe";
+                //process.StartInfo.FileName = Application.StartupPath + @"\build\itos.exe";
+                process.StartInfo.FileName = @"E:\u3dProject\iTOS3D\build\itos.exe";
                 process.StartInfo.Arguments = "-parentHWND " + panel1.Handle.ToInt32() + " " + Environment.CommandLine;
                 process.StartInfo.UseShellExecute = true;
                 process.StartInfo.CreateNoWindow = true;

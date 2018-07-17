@@ -1,1 +1,2 @@
 # iTOS3D
+这是一个将unity嵌入到wpf的方法。unity路径请在UnityControls.cs里面修改
