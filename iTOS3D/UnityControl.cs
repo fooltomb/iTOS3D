@@ -98,6 +98,7 @@ namespace iTOS3D
         internal void Form1_Activated()
         {
             ActivateUnityWindow();
+
         }
 
         internal void Form1_Deactivate()
