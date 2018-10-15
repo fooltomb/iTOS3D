@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 
+
 namespace iTOS3D.NET
 {
     public class Server
@@ -15,7 +16,7 @@ namespace iTOS3D.NET
         private IPEndPoint _ipEndpoint;
         private Socket _serverSocket;
         private Socket _u3dSocket;
-        private byte[] msg;
+        private Message msg;
 #endregion      
         /// <summary>
         /// 构造函数
@@ -25,7 +26,7 @@ namespace iTOS3D.NET
         public Server(string ipAddress,int port)
         {
             _ipEndpoint = new IPEndPoint(IPAddress.Parse(ipAddress), port);
-            msg = new byte[1024];
+            msg = new Message();
         }
 #region Mathed
         public void Start()
@@ -38,7 +39,7 @@ namespace iTOS3D.NET
         private void AcceptCallBack(IAsyncResult ar)
         {
             _u3dSocket = _serverSocket.EndAccept(ar);
-            _u3dSocket.BeginReceive(msg, 0, msg.Length, SocketFlags.None, ReceiveCallBack, null);
+            _u3dSocket.BeginReceive(msg.Data, msg.StartIndex, msg.RemainSize, SocketFlags.None, ReceiveCallBack, null);
         }
         //处理接收的数据
         private void ReceiveCallBack(IAsyncResult ar)
@@ -53,8 +54,9 @@ namespace iTOS3D.NET
                 else
                 {
                     //TODO
+                    //msg.ReadMessage(count,)
                 }
-                _u3dSocket.BeginReceive(msg, 0, msg.Length, SocketFlags.None, ReceiveCallBack, null);
+                _u3dSocket.BeginReceive(msg.Data, msg.StartIndex, msg.RemainSize, SocketFlags.None, ReceiveCallBack, null);
             }
             catch(Exception e)
             {

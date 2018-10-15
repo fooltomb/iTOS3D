@@ -27,6 +27,23 @@ namespace iTOS3D
             
         }
 
+        private void StartSever()
+        {
+            try
+            {
+
+            }
+            catch(Exception ex)
+            {
+                unityhost.ShowMessage(ex.ToString());
+            }
+        }
+
+        private void MainWindow_Load(object sender,EventArgs e)
+        {
+
+        }
+
         private void MainWindow_Closed(object sender, EventArgs e)
         {
             unityhost.Form1_FormClosed();

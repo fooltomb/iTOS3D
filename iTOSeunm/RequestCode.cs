@@ -20,6 +20,10 @@ namespace iTOSeunm
         /// 报警
         /// </summary>
         Alert,
+        /// <summary>
+        /// 状态
+        /// </summary>
+        Status,
         None
     }
 }

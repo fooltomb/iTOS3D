@@ -2,3 +2,9 @@ E:\VSproject\wpf\iTOS3D\iTOSeunm\bin\Debug\iTOSeunm.dll
 E:\VSproject\wpf\iTOS3D\iTOSeunm\bin\Debug\iTOSeunm.pdb
 E:\VSproject\wpf\iTOS3D\iTOSeunm\obj\Debug\iTOSeunm.dll
 E:\VSproject\wpf\iTOS3D\iTOSeunm\obj\Debug\iTOSeunm.pdb
+E:\gitpro\iTOS3D\iTOSeunm\bin\Debug\iTOSeunm.dll
+E:\gitpro\iTOS3D\iTOSeunm\bin\Debug\iTOSeunm.pdb
+E:\gitpro\iTOS3D\iTOSeunm\obj\Debug\iTOSeunm.csprojAssemblyReference.cache
+E:\gitpro\iTOS3D\iTOSeunm\obj\Debug\iTOSeunm.csproj.CoreCompileInputs.cache
+E:\gitpro\iTOS3D\iTOSeunm\obj\Debug\iTOSeunm.dll
+E:\gitpro\iTOS3D\iTOSeunm\obj\Debug\iTOSeunm.pdb

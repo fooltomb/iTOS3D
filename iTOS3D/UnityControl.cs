@@ -58,6 +58,10 @@ namespace iTOS3D
                 //MessageBox.Show(ex.Message);
             }
         }
+        public void ShowMessage(string msg)
+        {
+            unityHWNDLabel.Text = msg;
+        }
         private int WindowEnum(IntPtr hwnd, IntPtr lparam)
         {
             unityHWND = hwnd;
