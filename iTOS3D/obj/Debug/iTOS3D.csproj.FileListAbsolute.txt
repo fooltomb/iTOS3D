@@ -31,3 +31,8 @@ E:\gitpro\iTOS3D\iTOS3D\obj\Debug\iTOS3D.exe
 E:\gitpro\iTOS3D\iTOS3D\obj\Debug\iTOS3D.pdb
 E:\gitpro\iTOS3D\iTOS3D\obj\Debug\iTOS3D.csprojAssemblyReference.cache
 E:\gitpro\iTOS3D\iTOS3D\obj\Debug\iTOS3D.csproj.CoreCompileInputs.cache
+E:\gitpro\iTOS3D\iTOS3D\bin\Debug\iTOSeunm.dll
+E:\gitpro\iTOS3D\iTOS3D\bin\Debug\MySql.Data.dll
+E:\gitpro\iTOS3D\iTOS3D\bin\Debug\iTOSeunm.pdb
+E:\gitpro\iTOS3D\iTOS3D\bin\Debug\MySql.Data.xml
+E:\gitpro\iTOS3D\iTOS3D\obj\Debug\iTOS3D.csproj.CopyComplete

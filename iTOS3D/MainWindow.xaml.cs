@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using iTOS3D.NET;
 
 namespace iTOS3D
 {
@@ -31,7 +32,8 @@ namespace iTOS3D
         {
             try
             {
-
+                Server server = new Server("192.168.0.177", 41500);
+                server.Start();
             }
             catch(Exception ex)
             {

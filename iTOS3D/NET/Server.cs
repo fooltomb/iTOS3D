@@ -20,6 +20,7 @@ namespace iTOS3D.NET
         private Socket _u3dSocket;
         private Message msg;
         private MySqlConnection _conn;
+        private RequestHandler _requestHandler;
 #endregion      
         /// <summary>
         /// 构造函数
@@ -31,6 +32,7 @@ namespace iTOS3D.NET
             _ipEndpoint = new IPEndPoint(IPAddress.Parse(ipAddress), port);
             msg = new Message();
             _conn = ConnHelper.Connect();
+            _requestHandler = new RequestHandler(_conn, this);
         }
 #region Mathed
         public void Start()
@@ -58,7 +60,7 @@ namespace iTOS3D.NET
                 else
                 {
                     //TODO
-                    //msg.ReadMessage(count,)
+                    msg.ReadMessage(count, _requestHandler.ChooseHandlerToHandle);
                 }
                 _u3dSocket.BeginReceive(msg.Data, msg.StartIndex, msg.RemainSize, SocketFlags.None, ReceiveCallBack, null);
             }
