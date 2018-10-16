@@ -6,6 +6,8 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using iTOS3D.Tool;
+using MySql.Data.MySqlClient;
 
 
 namespace iTOS3D.NET
@@ -17,6 +19,7 @@ namespace iTOS3D.NET
         private Socket _serverSocket;
         private Socket _u3dSocket;
         private Message msg;
+        private MySqlConnection _conn;
 #endregion      
         /// <summary>
         /// 构造函数
@@ -27,6 +30,7 @@ namespace iTOS3D.NET
         {
             _ipEndpoint = new IPEndPoint(IPAddress.Parse(ipAddress), port);
             msg = new Message();
+            _conn = ConnHelper.Connect();
         }
 #region Mathed
         public void Start()

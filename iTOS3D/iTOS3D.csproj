@@ -35,6 +35,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\Connector.NET 6.9\Assemblies\v4.5\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -66,6 +70,8 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="NET\Message.cs" />
+    <Compile Include="NET\RequestHandler.cs" />
+    <Compile Include="Tool\ConnHelper.cs" />
     <Compile Include="UnityControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -109,7 +115,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Tool\" />
+    <ProjectReference Include="..\iTOSeunm\iTOSeunm.csproj">
+      <Project>{BB564B47-34EB-4A6A-93AA-3502FC682DA7}</Project>
+      <Name>iTOSeunm</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
